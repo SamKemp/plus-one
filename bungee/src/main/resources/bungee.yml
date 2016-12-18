@@ -1,0 +1,4 @@
+name: Plus-One
+main: com.outdatedversion.plus.BungeeHandler
+version: ${project.version}
+author: OutdatedVersion

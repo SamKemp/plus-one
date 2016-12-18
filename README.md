@@ -8,7 +8,7 @@ So, I provided them with this. It was built to be compatible with both Bukkit/Sp
 
 ## Usage
 
-Just plop the (https://github.com/OutdatedVersion/plus-one/releases/download/1.0/Plus-One.jar)[binary] into the proper folder:
+Just plop the [https://github.com/OutdatedVersion/plus-one/releases/download/1.0/Plus-One.jar](binary) into the proper folder:
 
 - BungeeCord: `{root}/modules`
 - Bukkit/Spigot: `{root}/plugins`

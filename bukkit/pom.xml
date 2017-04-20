@@ -13,7 +13,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bukkit</artifactId>
-    <packaging>jar</packaging>
 
     <repositories>
         <repository>

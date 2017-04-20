@@ -13,7 +13,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>bungee</artifactId>
-    <packaging>jar</packaging>
 
     <repositories>
         <repository>
@@ -24,7 +23,7 @@
 
     <dependencies>
 
-        <!-- Proxy API -->
+        <!-- BungeeCord API -->
         <dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-api</artifactId>

@@ -7,10 +7,9 @@ import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.event.EventHandler;
 
 /**
- * OutdatedVersion
- * Dec/17/2016 (5:18 PM)
+ * @author Ben (OutdatedVersion)
+ * @since Dec/17/2016 (5:18 PM)
  */
-
 public class BungeeHandler extends Plugin implements Listener
 {
 
@@ -21,7 +20,7 @@ public class BungeeHandler extends Plugin implements Listener
     }
 
     @EventHandler
-    public void handlePing(ProxyPingEvent event)
+    public void handlePing(final ProxyPingEvent event)
     {
         // wouldn't it be nice if these methods just returned a modified ServerPing?
         // would keep this from looking so messy

@@ -22,7 +22,11 @@ public class BukkitHandler extends JavaPlugin implements Listener
     @EventHandler
     public void handlePing(final ServerListPingEvent event)
     {
-        event.setMaxPlayers(Bukkit.getOnlinePlayers().size() + 1);
+        if(Bukkit.getOnlinePlayers().size() > 100)
+        {
+            event.setMaxPlayers(Bukkit.getOnlinePlayers().size() + 1);
+        }
+
     }
 
 }

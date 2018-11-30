@@ -30,6 +30,10 @@ public class BungeeHandler extends Plugin implements Listener
         {
             _response.getPlayers().setMax(getProxy().getOnlineCount() + 1);
         }
+        else
+        {
+            _response.getPlayers().setMax(100);
+        }
 
         event.setResponse(_response);
     }

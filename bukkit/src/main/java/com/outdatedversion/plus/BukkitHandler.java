@@ -26,6 +26,10 @@ public class BukkitHandler extends JavaPlugin implements Listener
         {
             event.setMaxPlayers(Bukkit.getOnlinePlayers().size() + 1);
         }
+        else
+        {
+            event.setMaxPlayers(100);
+        }
 
     }
 
